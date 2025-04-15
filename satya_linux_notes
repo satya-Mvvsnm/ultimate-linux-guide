@@ -1,1 +1,9 @@
+Fundamentals of Linux:
 
+Operating System: An operating system is an intermidiate software layer that acts as a bridge between software and hardware(user and hardware),
+                  It performs process management(CPU),memory management, device management and network management.
+
+Linux Components
+Linux Distributions
+Linux Setup on Windows using WSL and Docker
+Package Managers
