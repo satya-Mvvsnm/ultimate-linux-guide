@@ -1,5 +1,7 @@
 1. Login To Root user in Linux:
 
+<-> /  -  root of the file system
+
 <-> sudo -i or sudo su - = Commands to login as root user.
 
 <-> exit - logout from root user.
@@ -51,6 +53,10 @@
 
 <-> groups username - Viewing Group Memberships
 
+<-> usermod -l new_username old_username - Change the username
+
+<-> usermod -d /new/home/directory -m username  - Change the home directory
+
 3. File management in Linux:
 
 (a)File and Directory Management
@@ -96,9 +102,9 @@
 
 (a) Normal Mode (default) – Used for navigation and command execution.
 
-<-> gg     - Used to go to firstline of a file
+<-> gg     - Used to go firstline of a file
 
-<-> 7gg    - Used to go to 7th of a file
+<-> 7gg    - Used to go  7th of a file
 
 <-> G      - Move to the end of the file
 
@@ -129,6 +135,8 @@ Editing Text:
 <-> u - used to undo
 
 <-> Ctrl + r - Used to redo
+
+<-> dd – Delete a line 
 
 Search and Replace
 <-> /word  - Used to search for aword in a file
