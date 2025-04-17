@@ -1,1 +1,49 @@
+1. Login To Root user in Linux:
 
+<-> sudo -i or sudo su - = Commands to login as root user.
+
+<-> exit - logout from root user.
+
+<-> su - username - To login rootuser to another user
+
+2.User Management in Linux:
+
+<-> cat /etc/passwd or getent passwd – To see list of users
+
+<-> useradd username  - To creates a user without a home directory.
+
+<-> useradd -m username -To creates a user with a home directory.
+
+<-> passwd username - To set or change a user’s password
+
+<-> useradd -e 2025-01-31 username - To set expire date to user
+
+<-> chage -l username - To see the user expire date details.
+
+<-> chage -M 90 username - Set password expiry days
+
+<-> passwd -l username - Lock a user account
+
+<-> passwd -u username - Unlock a user account
+
+<-> userdel username - To remove a user but keep their home directory
+
+<-> userdel -r username - To remove a user and their home directory
+
+<-> cat /etc/group or getent group – To see list of groups
+
+<-> groupadd groupname - To creating Groups
+
+<-> groupdel groupname - To delete a group
+
+<-> usermod -aG groupname1,groupname2  username - To add a user to multiple groups at the same time.
+
+<-> usermod -aG groupname username - Adding Users to Groups
+
+<-> gpasswd -d username groupname - To remove a user from  a group
+
+<-> id username - To see user is added to group or not
+
+<-> groups username - Viewing Group Memberships
+
+<->
