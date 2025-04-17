@@ -51,4 +51,68 @@
 
 <-> groups username - Viewing Group Memberships
 
-<->
+3. File management in Linux:
+
+(a)File and Directory Management
+
+<-> touch filename - To create a file
+
+<-> ll or ls - To see list of files
+
+<-> rm filename - To remove any file with permissions
+
+<-> rm -f filename - To remove any file without permissions
+
+<-> mkdir foldername – Creates a new directory.
+
+<-> rmdir foldername – Removes an empty directory.
+
+<-> rmdir * - To remove all the empty directories
+
+<-> rm -rf foldername - To remove non-empty directories
+
+<-> cp file1.txt file2.txt – Copies a file.
+
+<-> cp -r dir1 dir2 – Copies a directory
+
+<-> mv old_name new_name – Moves or renames a file or directory.
+
+(b) How to change directories(cd)
+
+<-> cd foldername - used to change the directory
+
+<-> cd - used to get root directory
+
+<-> cd -  - uesd to go previous folder
+
+<-> cd ../  -   Used to go to one folder back
+
+<-> cd ../ ../  -   Used to go to two folders back
+
+<-> PWD - Present working directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
