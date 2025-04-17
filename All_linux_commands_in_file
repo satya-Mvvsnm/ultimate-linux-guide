@@ -17,7 +17,7 @@
 
 <-> useradd username  - To creates a user without a home directory.
 
-<-> useradd -m username -To creates a user with a home directory.
+<-> adduser username -To creates a user with a home directory.
 
 <-> passwd username - To set or change a user’s password
 
