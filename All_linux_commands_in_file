@@ -92,10 +92,56 @@
 <-> PWD - Present working directory
 
 
+4.VI Editor Shortcuts:
 
+(a) Normal Mode (default) – Used for navigation and command execution.
 
+<-> gg     - Used to go to firstline of a file
 
+<-> 7gg    - Used to go to 7th of a file
 
+<-> G      - Move to the end of the file
+
+<-> M     - Move to the middle of the file
+
+<-> :9    – Move to line number nine
+
+(b) Insert Mode – Used for text editing (press i to enter, Esc to exit).
+Insert Mode Shortcuts:
+<-> i   – Insert before cursor
+
+<-> Esc  – Exit insert mode
+
+<-> I – Used to go starting of the line
+
+<-> A – Used to go end of the line
+
+<-> o – Create a new line below
+
+<-> O – Create a new line above
+
+Editing Text:
+
+<-> yy - Used to copy the line
+
+<-> p - Used to print the copied content
+
+<-> u - used to undo
+
+<-> Ctrl + r - Used to redo
+
+Search and Replace
+<-> /word  - Used to search for aword in a file
+
+<-> :%s/old word/new word  - Used to replace a word in a file.
+
+(c) Command Mode – Used for saving, quitting, and searching (press : in Normal mode):
+
+<-> :w – Save file
+
+<-> :wq – Save and exit
+
+<-> :q! – Quit without saving
 
 
 
