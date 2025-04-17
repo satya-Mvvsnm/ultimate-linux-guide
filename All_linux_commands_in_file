@@ -8,6 +8,11 @@
 
 2.User Management in Linux:
 
+/etc/passwd – Stores user account details.
+/etc/shadow – Stores encrypted user passwords.
+/etc/group – Stores group information.
+/etc/gshadow – Stores secure group details.
+
 <-> cat /etc/passwd or getent passwd – To see list of users
 
 <-> useradd username  - To creates a user without a home directory.
