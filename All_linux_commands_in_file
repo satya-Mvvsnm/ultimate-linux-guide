@@ -151,16 +151,39 @@ Search and Replace
 
 <-> :q! – Quit without saving
 
+5. File Permissions Management in Linux:
 
+CHANGE PERMISSIONS OF A FILE:
 
+<-> chmod 777 filename - To change full permissions of a file
 
+<-> chmod 777 filename1 filename2 - To change full permissions of a multiple files.
 
+<-> chmod 777 * - To change full permissions of all file
 
+<-> chmod 777 foldername - To change full permissions of a folder
 
+<-> chmod 777 foldername -R  - To change full permissions of a folder along with files inside the folder.
 
+<-> chmod 777 foldername/*   - To change full permissions of a file which are present inside a folder 
 
+CHANGE OWNERS OF A FILE:
 
+<-> chown username:groupname filename - To change owners of a file
 
+<-> chown username:groupname filename1 filename2  - To change owners of a multiple files
+
+<-> chown username:groupname * - To change owners of all file
+
+<-> chown username:groupname foldername - To change owners of a folder
+
+<-> chown username:groupname foldername -R - To change owners of a folder along with files inside the folder.
+
+<-> chown username:groupname foldername/* - To change owners of a file which are present inside a folder.
+
+<-> chown username  - To change user owner
+
+<-> chgrp groupname - To change group owner
 
 
 
