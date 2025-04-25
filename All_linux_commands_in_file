@@ -206,3 +206,61 @@ CHANGE OWNERS OF A FILE:
 <-> pgrep processname - Find a process by name and return its PID
 
 <-> pidof processname  - Find the PID of a running program
+
+(b) Managing Processes:
+
+Killing Processes:
+
+<-> kill PID  -  To terminate a process by PID
+
+<-> pkill processname - To terminate using process name
+
+<-> kill -9 PID  - Force kill a process
+
+<-> pkill -9 processname  -  Kill all instances of a process
+
+Stopping & Resuming Processes:
+
+<-> kill -STOP PID –   Stop a running process
+
+<-> kill -CONT PID –   Resume a stopped process
+
+Changing Process Priority:
+
+<-> top   - View process priorities
+
+<-> renice -n 10 -p PID  # Lower priority (positive values)
+<-> renice -n -5 -p PID  # Higher priority (negative values, root required)
+
+Daemon Processes: Daemon processes run in the background without user intervention
+
+<-> systemctl list-units --type=service  - List all system daemons
+
+<-> systemctl start service-name  - Start a daemon
+
+<-> systemctl stop service-name  - Stop a daemon
+
+<-> systemctl enable service-name - Enable a service at startup
+
+7.Introduction to System Monitoring
+
+(a).CPU and Memory Monitoring:
+nproc - no of cpus
+
+<-> top –   Real-time system monitoring
+
+<-> htop – Interactive process viewer (requires installation)
+
+<-> vmstat – To check CPU, memory, and I/O stats
+
+<-> free -m – Show memory usage
+
+(b) Disk Monitoring:
+
+<-> df -h  - Check available disk space
+
+<-> du -sh /path   – Show disk usage of a specific directory
+
+<-> iostat   – Display CPU and disk I/O statistics
+
+
