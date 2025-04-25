@@ -263,4 +263,4 @@ nproc - no of cpus
 
 <-> iostat   – Display CPU and disk I/O statistics
 
-
+<-> fdisk -l - no of volumes attached
